@@ -32,7 +32,7 @@ function Header() {
 
         </NavMenu>
     
-        <UserImg src="/images/img.jpg"/>
+        <UserImg src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYT5vWrJRxhNRIOnkpLlz_x4gUJTtnplXCxA&usqp=CAU"/>
 
     </Nav>
   )
@@ -93,8 +93,10 @@ const NavMenu = styled.div`
 `
 
 const UserImg = styled.img`
-    width: 48px;
-    height: 48px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     cursor: pointer;
+    margin-top: 15px
+  
 `

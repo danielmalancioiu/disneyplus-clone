@@ -1,7 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
+import Detail from './Detail'
 
 function Movies() {
+
   return (
     <Container>
         <h4>Recommended for You</h4>
@@ -10,25 +13,25 @@ function Movies() {
                 <img src="https://w0.peakpx.com/wallpaper/378/623/HD-wallpaper-the-simpsons-the-simpsons-movie-homer-simpson.jpg" />
             </Wrap>
             <Wrap>
-                <img src="https://w0.peakpx.com/wallpaper/378/623/HD-wallpaper-the-simpsons-the-simpsons-movie-homer-simpson.jpg" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuQ07jcQDSzdqK3auQuWRjNPoVxDJYJC4iYg&usqp=CAU" />
             </Wrap>
             <Wrap>
-                <img src="https://w0.peakpx.com/wallpaper/378/623/HD-wallpaper-the-simpsons-the-simpsons-movie-homer-simpson.jpg" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlbBnogVh7fZnn-1kVnhz4JnfKraQbrtnHAA&usqp=CAU" />
             </Wrap>
             <Wrap>
-                <img src="https://w0.peakpx.com/wallpaper/378/623/HD-wallpaper-the-simpsons-the-simpsons-movie-homer-simpson.jpg" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyu1CtZhxWTGC4RCdWi45HUgisB9aQZIfEeg&usqp=CAU" />
             </Wrap>
             <Wrap>
-                <img src="https://w0.peakpx.com/wallpaper/378/623/HD-wallpaper-the-simpsons-the-simpsons-movie-homer-simpson.jpg" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYSURA_gtFUqUW4CL71gDueUXexUxEFOmL8g&usqp=CAU" />
             </Wrap>
             <Wrap>
-                <img src="https://w0.peakpx.com/wallpaper/378/623/HD-wallpaper-the-simpsons-the-simpsons-movie-homer-simpson.jpg" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOTsllUAl8ajY8Mkd_1Sryjb_hLasMvF1v8A&usqp=CAU" />
             </Wrap>
             <Wrap>
-                <img src="https://w0.peakpx.com/wallpaper/378/623/HD-wallpaper-the-simpsons-the-simpsons-movie-homer-simpson.jpg" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbcfxRm_ovZHNGGKiq7R9119r_Au-DsPCbPQ&usqp=CAU" />
             </Wrap>
             <Wrap>
-                <img src="https://w0.peakpx.com/wallpaper/378/623/HD-wallpaper-the-simpsons-the-simpsons-movie-homer-simpson.jpg" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQGT4dr5UNt3z3mRuC0_VbArsZ5z1XNS0XMw&usqp=CAU" />
             </Wrap>
             
         </Content>
@@ -70,3 +73,4 @@ const Wrap = styled.div`
 
     }
 `
+
